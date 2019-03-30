@@ -6,7 +6,7 @@ service are and how easy it is to get up and running with them.
 (2 if you already have the AWS CLI installed!)
 
 ##To start
-- install npm serverless -g
+- install npm install -g serverless
 - open serverless.yml and add your method name 
 - open handler.js to define the method
 - run serverless deploy to deploy the method to aws lambda 
