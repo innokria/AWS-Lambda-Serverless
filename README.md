@@ -10,5 +10,6 @@ service are and how easy it is to get up and running with them.
 - open serverless.yml and add your method name 
 - open handler.js to define the method
 - run serverless deploy to deploy the method to aws lambda 
-sample : https://i4z3zdj1mh.execute-api.us-east-1.amazonaws.com/dev/imageResize
-         https://i4z3zdj1mh.execute-api.us-east-1.amazonaws.com/dev/users/create
+- sample :
+  - https://i4z3zdj1mh.execute-api.us-east-1.amazonaws.com/dev/imageResize
+   -  https://i4z3zdj1mh.execute-api.us-east-1.amazonaws.com/dev/users/create
