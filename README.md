@@ -72,3 +72,5 @@ This metric is the average number of requests per second multiplied by the avera
 -------
 # How many concurrent requests can Lambda handle?
 AWS Lambda is capable of serving multiple requests by horizontally scaling for multiple containers. Lambda can support up to 1000 parallel container executions by default. there are 1000 requests in 10 secs to the API.
+# Does AWS lambda support multi threaded?
+Lambda supports Python 2.7 and Python 3.6, both of which have multiprocessing and threading modules. The multiprocessing module supports multiple cores so it is a better choice, especially for CPU intensive workloads.
