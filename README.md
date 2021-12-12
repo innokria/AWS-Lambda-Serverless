@@ -65,10 +65,10 @@ The default regional concurrency quota starts at 1,000 instances. For more infor
 
 
 ---------
-#calculate lambda concurrency
+# calculate lambda concurrency
 
 This metric is the average number of requests per second multiplied by the average duration in seconds. For example, if a Lambda function takes an average 500 ms to run with 100 requests per second, the concurrency is 50 (100 * 0.5 seconds).
 
 -------
-#How many concurrent requests can Lambda handle?
+# How many concurrent requests can Lambda handle?
 AWS Lambda is capable of serving multiple requests by horizontally scaling for multiple containers. Lambda can support up to 1000 parallel container executions by default. there are 1000 requests in 10 secs to the API.
