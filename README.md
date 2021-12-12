@@ -21,8 +21,8 @@ https://docs.aws.amazon.com/lambda/latest/dg/invocation-scaling.html
 
 
 **consurent thread** - inc to more than 1000 and test 
-**code storage lmit**  75 GB - currently its 35% used   DEV and 11 % in PROD 
-https://ap-southeast-2.console.aws.amazon.com/lambda/home?region=ap-southeast-2#/discover
+**code storage lmit**  75 GB - 
+
 
 
 https://iamondemand.com/blog/tips-and-tricks-working-with-aws-lambda-at-large-scale/
