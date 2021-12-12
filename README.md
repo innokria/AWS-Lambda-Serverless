@@ -61,3 +61,10 @@ function's concurrency. The total concurrency for
 The first time you invoke your function, AWS Lambda creates an instance of the function and runs its handler method to process the event. When the function returns a response, it stays active and waits to process additional events. If you invoke the function again while the first event is being processed, Lambda initializes another instance, and the function processes the two events concurrently. As more events come in, Lambda routes them to available instances and creates new instances as needed. When the number of requests decreases, Lambda stops unused instances to free up scaling capacity for other functions.
 
 The default regional concurrency quota starts at 1,000 instances. For more information, or to request an increase on this quota, see Lambda quotas. To allocate capacity on a per-function basis, you can configure functions with reserved concurrency.
+
+
+
+---------
+#calculate lambda concurrency
+
+This metric is the average number of requests per second multiplied by the average duration in seconds. For example, if a Lambda function takes an average 500 ms to run with 100 requests per second, the concurrency is 50 (100 * 0.5 seconds).
