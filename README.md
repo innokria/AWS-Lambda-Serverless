@@ -20,7 +20,7 @@ https://docs.aws.amazon.com/lambda/latest/dg/invocation-scaling.html
 
 
 
-**consurent thread** - inc to more than 1000 and test 
+**concurent thread** - inc to more than 1000 and test 
 **code storage lmit**  75 GB - 
 
 
